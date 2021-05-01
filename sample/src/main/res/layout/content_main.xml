@@ -47,6 +47,15 @@
 
     </androidx.cardview.widget.CardView>
 
+    <TextView
+        android:id="@+id/centerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notice me"
+        android:background="#ff0000"
+        android:layout_centerInParent="true"
+        />
+
     <Button
         android:id="@+id/button_reset_all"
         android:layout_width="match_parent"

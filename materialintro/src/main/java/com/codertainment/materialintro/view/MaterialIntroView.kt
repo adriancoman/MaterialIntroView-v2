@@ -118,6 +118,11 @@ class MaterialIntroView : RelativeLayout {
   var padding = Constants.DEFAULT_TARGET_PADDING
 
   /**
+   * Radius for the Rectangular shape
+   */
+  var radius = Constants.DEFAULT_RADIUS
+
+  /**
    * Layout myWidth/myHeight
    */
   private var myWidth = 0
@@ -365,7 +370,7 @@ class MaterialIntroView : RelativeLayout {
     /**
      * Clear focus area
      */
-    targetShape.draw(this.canvas!!, eraser, padding)
+    targetShape.draw(this.canvas!!, eraser, radius)
     canvas.drawBitmap(bitmap!!, 0f, 0f, null)
   }
 
@@ -687,6 +692,7 @@ class MaterialIntroView : RelativeLayout {
     this.focusGravity = config.focusGravity
 
     this.padding = config.padding
+    this.radius = config.radius
 
     this.dismissOnTouch = config.dismissOnTouch
 

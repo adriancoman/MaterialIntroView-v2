@@ -27,6 +27,7 @@ data class MaterialIntroConfiguration(
   var focusGravity: FocusGravity = FocusGravity.CENTER,
 
   var padding: Int = Constants.DEFAULT_TARGET_PADDING,
+  var radius: Int = Constants.DEFAULT_RADIUS,
 
   var dismissOnTouch: Boolean = false,
 
