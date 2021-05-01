@@ -32,6 +32,8 @@ class MainFragment : Fragment() {
       focusType = Focus.MINIMUM
       isPerformClick = true
       infoText = text
+      radius = 40
+      padding = 20
       targetView = view
       shapeType = ShapeType.RECTANGLE
       viewId = usageId
